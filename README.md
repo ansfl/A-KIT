@@ -27,7 +27,7 @@ of the process noise covariance. In this manner, A-KIT is designed as a hybrid a
 
 # Citation
 
-If you found the experimental DATA useful for your research or used the A-KIT architectures and code, please cite our paper:
+If you found our paper, code, or experimental data  useful for your research, please cite our paper:
 
     @article{cohen2024akit,
     title={A-KIT: Adaptive Kalman-Informed Transformer}, 
