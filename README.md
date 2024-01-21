@@ -16,7 +16,24 @@ The dataset was recorded on June 8, 2022, and contains approximately seven hours
 
 **Additional information regarding the dataset is located in the data folder.**
 ## Architecture and Algorithm
-
+To cope with real-time adaptive process noise covariance matrix estimation, we propose A-KIT, an adaptive Kalman-informed transformer. To this end, we derive a tailored set-transformer network for time series data dedicated to real-time regression of the EKF’s process noise covariance matrix. Additionally, a Kalman-informed loss is designed to emulate the principles of the KF, enhancing the accuracy
+of the process noise covariance. In this manner, A-KIT is designed as a hybrid algorithm combining the strengths of the well-established theory behind EKF and leveraging well-known, deep-learning characteristics. 
 <p align="center">
   <img width="80%" height="80%" src="https://github.com/ansfl/A-KIT/blob/main/Figs/ProNet_arch.png">
 </p>
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/ansfl/A-KIT/blob/main/Figs/flow chart.png">
+</p>
+
+# Citation
+
+If you found the experimental DATA useful for your research or used the A-KIT architectures and code, please cite our paper:
+
+    @article{cohen2024akit,
+    title={A-KIT: Adaptive Kalman-Informed Transformer}, 
+    author={Nadav Cohen and Itzik Klein},
+    year={2024},
+    eprint={2401.09987},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO}
+    }
