@@ -5,6 +5,8 @@ The extended Kalman filter (EKF) is a widely adopted method for sensor fusion in
 ## Dataset:
 We conducted experiments in the Mediterranean Sea near the shore of Haifa, Israel, using the Snapir AUV to gather data. Snapir is a modified, ECA Group, A18D mid-size AUV for deep-water applications. It performs autonomous missions up to 3000 meters in depth with 21 hours of endurance. Snapir is equipped with iXblue Phins Subsea, which is a FOG-based high-performance subsea inertial navigation system, and Teledyne RDI Work Horse navigator DVL that achieves accurate velocity measurements with a standard deviation of 0.02 [m/s]. The INS operates at a rate of 100 [Hz] and the DVL at 1[Hz].
 The dataset was recorded on June 8, 2022, and contains approximately seven hours of data with different maneuvers, depths, and speeds. The train set is composed of eleven different data sections, each of a duration of 400 [sec] and with different dynamics for diversity. We used only 73.3 minutes of the recorded data for training. As ground truth (GT), we used the filter solution given by Delph INS, post-processing software for iXblue’s INS-based subsea navigation. To evaluate the approach, we examined an additional two 400 [sec] segments of the data that are not present in the training set, referring to them as the test set.
-![alt text](https://github.com/ansfl/A-KIT/blob/main/Figs/Snapir_AUV1.jpeg )
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/ansfl/A-KIT/blob/main/Figs/Snapir_AUV1.jpeg">
+</p>
 **Additional information regarding the dataset is located in the data folder.**
 ## Architecture and Algorithm
