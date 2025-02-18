@@ -29,13 +29,13 @@ of the process noise covariance. In this manner, A-KIT is designed as a hybrid a
 
 If you found our paper, code, or experimental data  useful for your research, please cite our paper:
 
-  @article{cohen2025adaptive,
-    title={Adaptive Kalman-Informed Transformer},
-    author={Cohen, Nadav and Klein, Itzik},
-    journal={Engineering Applications of Artificial Intelligence},
-    volume={146},
-    pages={110221},
-    year={2025},
-    publisher={Elsevier}
-  }
+    @article{cohen2025adaptive,
+      title={Adaptive Kalman-Informed Transformer},
+      author={Cohen, Nadav and Klein, Itzik},
+      journal={Engineering Applications of Artificial Intelligence},
+      volume={146},
+      pages={110221},
+      year={2025},
+      publisher={Elsevier}
+    }
 
